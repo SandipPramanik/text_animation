@@ -74,7 +74,7 @@ class _TextAnimationState extends State<TextAnimation>
         children: <Widget>[
           Positioned(
             top: MediaQuery.of(context).padding.top,
-            height: 120.0,
+            height: 121.0,
             width: MediaQuery.of(context).size.width,
             child: Container(
               color: Colors.white,
@@ -82,7 +82,7 @@ class _TextAnimationState extends State<TextAnimation>
                 child: Text(
                   "TEXT ANIMATION",
                   style: TextStyle(
-                    fontSize: 25.0,
+                    fontSize: 26.0,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                   ),
@@ -103,7 +103,7 @@ class _TextAnimationState extends State<TextAnimation>
                           child: Text(
                             "# ",
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 31.0,
                               color: Colors.white,
                             ),
                           ),
@@ -117,7 +117,7 @@ class _TextAnimationState extends State<TextAnimation>
                   child: Text(
                     firstLetter + " ",
                     style: TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 31.0,
                       color: _fColorAnimation.value,
                     ),
                   ),
@@ -127,7 +127,7 @@ class _TextAnimationState extends State<TextAnimation>
                 child: Text(
                   "i ",
                   style: TextStyle(
-                    fontSize: 30.0,
+                    fontSize: 31.0,
                     color: _iColorAnimation.value,
                   ),
                 ),
@@ -138,7 +138,7 @@ class _TextAnimationState extends State<TextAnimation>
                   child: Text(
                     "g ",
                     style: TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 31.0,
                       color: _gColorAnimation.value,
                     ),
                   ),
@@ -150,7 +150,7 @@ class _TextAnimationState extends State<TextAnimation>
                   child: Text(
                     "m a",
                     style: TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 31.0,
                       color: Colors.white,
                     ),
                   ),
@@ -173,14 +173,14 @@ class _TextAnimationState extends State<TextAnimation>
                 if (!isAnimating) _controller.reverse();
               },
               child: Container(
-                height: 65.0,
+                height: 66.0,
                 width: MediaQuery.of(context).size.width,
                 color: Colors.white,
                 child: Center(
                   child: Text(
                     buttonText,
                     style: TextStyle(
-                      fontSize: 20.0,
+                      fontSize: 21.0,
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
